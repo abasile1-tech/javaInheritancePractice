@@ -10,6 +10,6 @@ public class Instructor extends Person {
     }
 
     public String talk(String language) {
-        return "I teach " + language;
+        return super.talk(language) + " because it is my job.";
     }
 }

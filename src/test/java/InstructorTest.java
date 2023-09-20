@@ -36,7 +36,7 @@ public class InstructorTest {
 
     @Test
     public void canTalk(){
-        assertEquals("I teach Java", instructor.talk("Java"));
+        assertEquals("I love Java because it is my job.", instructor.talk("Java"));
     }
 
     @Test
